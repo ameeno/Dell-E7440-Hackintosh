@@ -13,7 +13,18 @@ Everything
 # OS:
 Use High sierra or Mojave.
 
+Tested with 10.3.5-11
+10.4.0-3
 
+Working great.
+
+To use: Simply Download the repository as a Zip file and extract to your EFI partition under the EFI Folder.
+
+**DO THIS AFTER YOU HAVE ALREADY GOT A BOOTABLE CLOVER EFI INSTALLED**
+otherwise you must set your laptop to boot from clover in the Bios.
+I will link a guide on how to do this in the future.
+
+Enjoy your Hackintosh!
 
 #Sources:
 OSXLatitude
