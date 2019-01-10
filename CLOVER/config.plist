@@ -258,7 +258,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>12</integer>
 		</dict>
 		<key>Properties</key>
 		<dict>
