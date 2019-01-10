@@ -24,6 +24,14 @@ To use: Simply Download the repository as a Zip file and extract to your EFI par
 otherwise you must set your laptop to boot from clover in the Bios.
 I will link a guide on how to do this in the future.
 
+BTW, inside the kext/Other/CopytoLE folder,
+copy these kexts into /Library/Extensions
+on your Hack.
+
+Then in terminal run the Clean&Rebuild script in this main folder.
+from inside this repos folder do the following commands:
+chmod +x permission-E7440.sh && ./permission-E7440.sh
+
 Enjoy your Hackintosh!
 
 #Sources:
