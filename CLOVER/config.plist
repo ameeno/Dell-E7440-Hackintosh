@@ -175,8 +175,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>dart=0 kext-dev-mode=1 debug=0x100 abm_firstpolldelay=20000 brcmfx-country=GB</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -258,7 +256,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>12</integer>
+			<string>No</string>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -355,8 +353,6 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<false/>
-			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
 			<true/>
@@ -502,6 +498,8 @@
 	<dict>
 		<key>CustomUUID</key>
 		<string>4EFAF4AC-7030-43D4-B97E-4629C15F619A</string>
+		<key>ExposeSysVariables</key>
+		<true/>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
