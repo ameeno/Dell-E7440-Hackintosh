@@ -6,6 +6,7 @@ sudo chmod -Rf 755 /S*/L*/E*
 sudo chown -Rf 0:0 /S*/L*/E*
 sudo touch -f /S*/L*/E*
 sudo kextcache -Boot -U /
+sudo kextcache -i /
 echo 'Done fixing kext cache'
 
 echo 'Fixing sleep & Hibernate '

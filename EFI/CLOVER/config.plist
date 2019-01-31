@@ -175,6 +175,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>brcmfx-country﻿=#a</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -184,7 +186,7 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -262,6 +264,26 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
+				<key>AAPL,current-available</key>
+				<data>
+				CDQ=
+				</data>
+				<key>AAPL,current-extra</key>
+				<data>
+				CJg=
+				</data>
+				<key>AAPL,current-extra-in-sleep</key>
+				<data>
+				BkA=
+				</data>
+				<key>AAPL,device-internal</key>
+				<data>
+				Ag==
+				</data>
+				<key>AAPL,max-port-current-in-sleep</key>
+				<data>
+				CDQ=
+				</data>
 				<key>layout-id</key>
 				<data>
 				DAAAAA==
@@ -331,12 +353,71 @@
 	</array>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Arguments</key>
+					<string>initrd=/intel-ucode.img initrd=/initramfs-linux-fallback.img rw add_efi_memmap root=UUID=<ROOTUUID> resume=UUID=<RESUMEUUID></string>
+					<key>Disabled</key>
+					<false/>
+					<key>Hidden</key>
+					<true/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Title</key>
+					<string>Arch (FALLBACK)</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>EFI</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string>initrd=/intel-ucode.img initrd=/initramfs-linux.img rw add_efi_memmap root=UUID=<ROOTUUID> resume=UUID=<RESUMEUUID> quiet splash </string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Arch Linux</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>EFI</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Title</key>
+					<string>Windows</string>
+					<key>Type</key>
+					<string>Windows</string>
+				</dict>
+			</array>
+		</dict>
 		<key>EmbeddedThemeType</key>
 		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -354,13 +435,15 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>clover-minimal-inverted</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -438,8 +521,6 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>MLB</key>
-		<string>C17303902J9FH311F</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -498,8 +579,6 @@
 	<dict>
 		<key>CustomUUID</key>
 		<string>4EFAF4AC-7030-43D4-B97E-4629C15F619A</string>
-		<key>ExposeSysVariables</key>
-		<true/>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
