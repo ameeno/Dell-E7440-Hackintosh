@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo echo 'Password Accepted: Fixing Kext Cache.'
 sudo chmod -Rf 755 /L*/E*
 sudo chown -Rf 0:0 /L*/E*
@@ -14,3 +16,5 @@ sudo pmset hibernatemode 0
 sudo rm -f /var/vm/sleepimage
 sudo pmset hibernatefile /dev/null
 echo 'Done fixing hibernate'
+
+exit 0

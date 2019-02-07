@@ -176,7 +176,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>brcmfx-country﻿=#a</string>
+		<string>dart=0 kext-dev-mode=1 debug=0x100 brcmfx-country=#a abm_firstpolldelay=16000</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -255,35 +255,10 @@
 				<string>03:00:00</string>
 			</dict>
 		</array>
-		<key>Audio</key>
-		<dict>
-			<key>Inject</key>
-			<string>No</string>
-		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
-				<key>AAPL,current-available</key>
-				<data>
-				CDQ=
-				</data>
-				<key>AAPL,current-extra</key>
-				<data>
-				CJg=
-				</data>
-				<key>AAPL,current-extra-in-sleep</key>
-				<data>
-				BkA=
-				</data>
-				<key>AAPL,device-internal</key>
-				<data>
-				Ag==
-				</data>
-				<key>AAPL,max-port-current-in-sleep</key>
-				<data>
-				CDQ=
-				</data>
 				<key>layout-id</key>
 				<data>
 				DAAAAA==
@@ -358,66 +333,34 @@
 			<key>Entries</key>
 			<array>
 				<dict>
-					<key>Arguments</key>
-					<string>initrd=/intel-ucode.img initrd=/initramfs-linux-fallback.img rw add_efi_memmap root=UUID=<ROOTUUID> resume=UUID=<RESUMEUUID></string>
-					<key>Disabled</key>
-					<false/>
-					<key>Hidden</key>
-					<true/>
-					<key>Ignore</key>
-					<false/>
-					<key>Path</key>
-					<string>vmlinuz-linux</string>
-					<key>Title</key>
-					<string>Arch (FALLBACK)</string>
-					<key>Type</key>
-					<string>Linux</string>
-					<key>Volume</key>
-					<string>EFI</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string>initrd=/intel-ucode.img initrd=/initramfs-linux.img rw add_efi_memmap root=UUID=<ROOTUUID> resume=UUID=<RESUMEUUID> quiet splash </string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>Arch Linux</string>
-					<key>Hidden</key>
-					<false/>
+					<string>Windows</string>
 					<key>Ignore</key>
 					<false/>
-					<key>Path</key>
-					<string>vmlinuz-linux</string>
 					<key>Type</key>
-					<string>Linux</string>
-					<key>Volume</key>
-					<string>EFI</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
+					<string>Windows</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>macOS</string>
 					<key>Ignore</key>
 					<false/>
-					<key>Title</key>
-					<string>Windows</string>
+					<key>NoCaches</key>
+					<false/>
 					<key>Type</key>
-					<string>Windows</string>
+					<string>OSX</string>
 				</dict>
 			</array>
 		</dict>
-		<key>EmbeddedThemeType</key>
-		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
-		<key>Language</key>
-		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -537,7 +480,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C17303902J9FH311F</string>
+		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -567,9 +510,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C17K4KZ1FH00</string>
+		<string></string>
 		<key>SmUUID</key>
-		<string>6697781C-6A7B-4388-8EB9-07DE4955CB1E</string>
+		<string></string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -578,11 +521,11 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>4EFAF4AC-7030-43D4-B97E-4629C15F619A</string>
+		<string></string>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<true/>
+		<false/>
 	</dict>
 </dict>
 </plist>
