@@ -342,18 +342,6 @@
 					<key>Type</key>
 					<string>Windows</string>
 				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>macOS</string>
-					<key>Ignore</key>
-					<false/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Type</key>
-					<string>OSX</string>
-				</dict>
 			</array>
 		</dict>
 		<key>Hide</key>
@@ -525,7 +513,7 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<false/>
+		<true/>
 	</dict>
 </dict>
 </plist>
