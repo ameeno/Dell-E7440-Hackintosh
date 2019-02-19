@@ -294,7 +294,7 @@
 					<key>Swap command and option</key>
 					<false/>
 					<key>Use ISO layout keyboard</key>
-					<true/>
+					<false/>
 					<key>alt_handler_id</key>
 					<integer>3</integer>
 				</dict>
