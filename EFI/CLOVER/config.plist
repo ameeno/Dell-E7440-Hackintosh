@@ -246,7 +246,7 @@
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>Windows</string>
+					<string>Win10</string>
 					<key>Ignore</key>
 					<false/>
 					<key>Type</key>
@@ -541,7 +541,7 @@
 		<key>CustomUUID</key>
 		<string>87222CB0-6EEC-4DE0-9CBD-FAF5A6263168</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
