@@ -3,7 +3,7 @@
 
 This Branch is for DELL Latitude E7440 with A25 bios system with the following specs:
 
-Intel i5 4300U CPU 16Gb Ram DDR3 1600 SSD SAMSUNG SSD SM841 Intel HD4400 GPU Broadcom BCM94352HMB 802.11 ac + Bluetooth4 Card
+Intel i5 4300U CPU 16Gb Ram DDR3 1600 SSD SAMSUNG SSD SM841 Intel HD4400 GPU Broadcom BCM94352HMB 802.11 ac + Bluetooth 4 Card
 (Also known as AW-CE123H or DW1550)
 
 What works:
@@ -38,6 +38,23 @@ Enjoy your Hackintosh!
 OSXLatitude
 Own Research
 Lilu & Friends
+
+## E7440 Throttling problem (Common issue)
+A Common Issue that Dell e7440 Laptops suffer from is a throttling problem, where they are restricted and locked to just 800Mhz on the CPU.
+
+This is not really a hackintosh related issue, but a Laptop hardware issue, that is quite common to E7440's.
+I personally have suffered from this, as have other users of the repository.
+
+Fortunately, the Fix is rather simple, and just requires removing one screw from under the keyboard, which is a pointless screw, that doesn't seem to do anything but causes the CPU temperature sensor to lock the CPU down.
+
+Thanks to user wtjin1992 who has posted a helpful youtube video on how to fix the sensor.:
+
+https://www.youtube.com/watch?v=00xRSqyGnks&t=2s
+
+
+This does involve taking the laptop apart slightly to get underneath the keyboard, But since your here thinking about Hackintoshing your laptop in the first place, I don't think taking a mini screwdriver to the machine for a few minutes will scare you :)
+
+Now on to the rest of the guide.
 
 
 ### Additional Guide
