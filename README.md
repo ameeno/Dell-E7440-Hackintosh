@@ -104,7 +104,7 @@ Now on to the rest of the guide.
 - HDMI -> DVI
 - Wi-Fi & Bluetooth (tested on AW-CE123H/ DW1320 AC card)
 
-##### What Doesnt Work:
+##### What Doesn't Work:
 - As of right now, nothing! :)
 
 **Note:** I am currently working on a fix for the items listed above. If you use this guide and information and find that something does not work, please submit an issue request so I can work on a fix.
